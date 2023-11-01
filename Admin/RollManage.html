@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang tài khoản</title>
+    <link rel="stylesheet" href="RollManage.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header" data-header>
+            <div>
+                <h1>
+                    <a href="../BirdStore/index.html" class="logo">Bird Store</a>
+                </h1>
+                <p>For Admin</p>
+            </div>
+            <div class="directional-header">
+                <button>
+                    Trang chủ
+                </button>
+                <button>
+                    Thông tin
+                </button>
+                <button>
+                    Dịch vụ
+                </button>
+                <button>
+                    Liên hệ
+                </button>
+            </div>
+            <div class="search-header">
+                <input type="text">
+            </div>
+            <div class="dropdown1">
+                <button class="dropbtn1">
+                    <a href="../ProfileUser/profile.html">
+                        <img src="./IMG/trend-avatar-1.jpg" alt="">
+                        <strong>Tên người dùng</strong>
+                    </a>
+                </button>
+                <div class="dropdown1-content">
+                    <a href="../ProfileUser/profile.html"><strong>Trang cá nhân</strong> </a>
+                    <a href="../Cart/CartPage.html"><strong>Giỏ hàng</strong> </a>
+                    <a href="./RollManage.html"><strong>Quản lý tài khoản</strong> </a>
+                    <a href="#"><strong>Đăng xuất</strong> </a>
+                </div>
+            </div>
+        </header>
+        <div class="main">
+            <div class="accountList">
+                <div class="account">
+                    <div class="avatar">
+                        <img src="./IMG/trend-avatar-1.jpg" alt=""> 
+                    </div>
+                    <div class="userName">
+                        <p><strong>Tên tài khoản</strong></p>
+                    </div>
+                    <div class="active">
+                        <select name="roll" id="roll">
+                            <option value="1" selected>Customer</option>
+                            <option value="1">Manager</option>
+                            <option value="2">Staff</option>
+                            <option value="2">Admin</option>
+                        </select>
+                        <button>
+                            Block
+                        </button>
+                    </div>
+                </div>
+                <div class="account">
+                    <div class="avatar">
+                        <img src="./IMG/trend-avatar-1.jpg" alt=""> 
+                    </div>
+                    <div class="userName">
+                        <p><strong>Tên tài khoản</strong></p>
+                    </div>
+                    <div class="active">
+                        <select name="tour" id="tour">
+                            <option value="1" selected>Tour</option>
+                            <option value="1">SG</option>
+                            <option value="2">Đà lạt</option>
+                        </select>
+                        <button>
+                            Block
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

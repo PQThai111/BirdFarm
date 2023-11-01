@@ -115,3 +115,59 @@ body {
     float: left;
     border: none;
 }
+
+.main{
+    border: solid black;
+    width: 120rem;
+    margin: 1rem auto;
+    padding: 1rem 3rem;
+}
+.account{
+    /* border: solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgba(162, 235, 245, 0.443);
+    margin: 1rem 0;
+}
+.avatar{
+    /* border: solid yellow; */
+    width: 8rem;
+}
+.avatar img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    border: none;
+}
+.userName{
+    /* border: solid black; */
+    padding: 2rem 0;
+}
+.active{
+    padding: 1rem;
+}
+.active select{
+    width: 15rem;
+    height: 5rem;
+    margin: auto 0;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.active button{
+    width: 8rem;
+    height: 5rem;
+    background-color: rgb(254, 68, 68);
+    color: #f1f1f1;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 1rem;
+    cursor: pointer;
+    font-size: 16px;
+}
+.active button:hover{
+    background-color: red;
+    color: #f1f1f1;
+    font-weight: bold;
+}
